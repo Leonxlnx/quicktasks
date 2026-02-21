@@ -1,34 +1,32 @@
-# ⚡ QuickTasks
+# QuickTasks
 
-A lightning-fast, minimalist task management panel for Windows. Designed with a legendary **Obsidian & Gold** aesthetic, it stays hidden in your background and pops up instantly with a global hotkey.
+A fast, minimalist task management panel for Windows. Designed with a dark Obsidian and Gold theme, it runs in the background and opens instantly using a keyboard shortcut.
 
-![QuickTasks Icon](icon.png)
+## Features
 
-## ✨ Features
+- Instant Access: Show or hide the panel anytime with Ctrl + Shift + Space.
+- Clean Design: Dark mode theme with gold highlights.
+- Always Ready: Starts automatically when you log into Windows.
+- Smart Deadlines: Get notifications for upcoming or overdue tasks.
+- Portable: No installation needed. Runs as a single .exe file.
 
-- 🚀 **Instant Access:** Toggle visibility anytime with `Ctrl + Shift + Space`.
-- 🌑 **Legendary UI:** Clean, Obsidian-dark theme with gold accents and smooth animations.
-- 📌 **Always Ready:** Starts automatically with Windows and lives in your system tray.
-- 🔔 **Smart Deadlines:** Integrated notification system for upcoming or overdue tasks.
-- 📦 **Zero Installation:** Runs as a standalone portable `.exe` file.
+## Installation
 
-## 📥 Installation (Easy Peasy)
+1. Download the latest QuickTasks.exe from the Releases section (or the dist folder if you build it yourself).
+2. Move the file to a permanent folder on your PC (for example, Documents/Apps).
+3. Double-click the file to run it.
 
-1. **Download** the latest `QuickTasks.exe` from the [Releases](https://github.com/Leonxlnx/quicktasks/releases) section (or from the `dist` folder).
-2. **Move** the file to a permanent folder on your PC (e.g., `Documents/Apps`).
-3. **Double-click** to run it. 
+The app will now run in the background and automatically start with Windows.
 
-*The app will automatically set itself up to start whenever you log into Windows!*
+## Controls
 
-## ⌨️ Controls
+- Ctrl + Shift + Space: Show or hide the panel.
+- Esc or click outside: Hide the panel.
+- Right-click the Tray Icon: Open the "Show Quick Tasks" menu.
 
-- **`Ctrl + Shift + Space`**: Show / Hide the panel.
-- **`Esc`** or **Click outside**: Hide the panel.
-- **Right-click Tray Icon**: Access "Show Quick Tasks" menu.
+## Development
 
-## 🛠️ Development
-
-If you want to build it from source:
+If you want to build the project from the source code:
 
 ```bash
 # Install dependencies
@@ -37,9 +35,6 @@ npm install
 # Run in development mode
 npm start
 
-# Build the portable .exe
+# Build the portable .exe file
 npm run build
 ```
-
----
-*Built with ❤️ and Electron.*
